@@ -76,6 +76,6 @@ Siga os passos abaixo para rodar a aplicação localmente com Docker Compose:
 ### **Contato**
 
 * Isaac Alves Schuenck
-* Seu i.alvessc01@gmail.com
+* i.alvessc01@gmail.com
 * https://www.linkedin.com/in/isaac-alves-schuenck/
 * (31) 98351-3722
