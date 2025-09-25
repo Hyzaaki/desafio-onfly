@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n-custom
+    ports:
+      - "5678:5678"
+    environment:
+      - NODE_ENV=development
+      - N8N_CUSTOM_EXTENSIONS=/home/node/.n8n/custom
+    volumes:
+      - ./dist/.n8n:/home/node/.n8n
