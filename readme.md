@@ -1,4 +1,4 @@
-<img width="580" height="148" alt="image" src="https://github.com/user-attachments/assets/a381fad1-bff8-4bc3-8b9f-74c6cc4ac293" /># Desafio Onfly: Gerador de Número Aleatório para n8n
+# Desafio Onfly: Gerador de Número Aleatório para n8n
 
 Este repositório contém um nó customizado para a plataforma de automação **n8n**. O conector, chamado **"Random"**, permite gerar números aleatórios verdadeiros utilizando a API pública do **Random.org**, com base em valores de mínimo e máximo definidos pelo usuário.
 
