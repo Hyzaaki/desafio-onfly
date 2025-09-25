@@ -1,4 +1,4 @@
-# Desafio Onfly: Gerador de Número Aleatório para n8n
+<img width="580" height="148" alt="image" src="https://github.com/user-attachments/assets/a381fad1-bff8-4bc3-8b9f-74c6cc4ac293" /># Desafio Onfly: Gerador de Número Aleatório para n8n
 
 Este repositório contém um nó customizado para a plataforma de automação **n8n**. O conector, chamado **"Random"**, permite gerar números aleatórios verdadeiros utilizando a API pública do **Random.org**, com base em valores de mínimo e máximo definidos pelo usuário.
 
@@ -23,6 +23,7 @@ O projeto foi construído com os seguintes componentes:
 * **n8n**: Plataforma de automação low-code que hospeda o conector.
 * **Random.org**: API utilizada para a geração dos números aleatórios.
 
+```bash
 A estrutura de pastas segue as convenções do n8n para nós customizados:
 ├── .n8n/
 │   └── custom/
@@ -31,6 +32,7 @@ A estrutura de pastas segue as convenções do n8n para nós customizados:
 │           └── icon.svg
 └── docker-compose.yml
 └── README.md
+```
 
 O código do nó se encontra em `.n8n/custom/random/Random.node.ts`.
 
@@ -48,8 +50,8 @@ Siga os passos abaixo para rodar a aplicação localmente com Docker Compose:
 
 * Clone este repositório para a sua máquina local:
     ```bash
-    git clone [https://github.com/Hyzaaki/desafio-onfly](https://github.com/Hyzaaki/desafio-onfly)
-    cd seu-repositorio
+    git clone https://github.com/Hyzaaki/desafio-onfly.git
+    cd clone https://github.com/Hyzaaki/desafio-onfly.git
     ```
 * Suba o n8n usando o Docker Compose:
     ```bash
